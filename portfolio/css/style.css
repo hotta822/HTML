@@ -27,15 +27,13 @@ header a{
 }
 .name h1{
   font-family: "HG正楷書体-PRO",serif;
-  
   color: #f7f7f7;
   font-size: 3rem;
   text-align: center;
 }
-
-.study h2{
+h2{
   font-family: "HG正楷書体-PRO",serif;
-  color: #f7f7f7;
+  color:#f7f7f7;
   font-size: 2rem;
   text-align: center;
 }
@@ -45,6 +43,9 @@ header a{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+
 @media screen and (min-width:430px) { 
   
 }

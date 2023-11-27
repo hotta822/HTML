@@ -3,20 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex" />
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/menu.js"></script>
+  <!-- <link rel="stylesheet" href="css/menu.css">
+  <script src="js/menu.js"></script> -->
   <!-- <script src="js/media.js"></script> -->
   <title>堀田 ポートフォリオ</title>
 </head>
 <body>
   <header>
     <nav>
-      <div class="hamburger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
+       <!-- checkbox式 -->
+      <!-- <div class="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check">
+          <label for="menu-btn-check" class="menu-btn"><span></span></label> -->
+           <!--ここからメニュー-->
+        <!-- <div class="menu-content">
+            <ul>
+                <li>
+                    <a href="#">メニューリンク1</a>
+                </li>
+                <li>
+                    <a href="#">メニューリンク2</a>
+                </li>
+                <li>
+                    <a href="#">メニューリンク3</a>
+                </li>
+            </ul>
+        </div> -->
+        <!--ここまでメニュー-->
+      <!-- </div> -->
     
       <ul>
         <li><a href="#">トップ</a></li>
@@ -31,19 +48,44 @@
         <h1>堀田 将史</h1>
         <h1>ポートフォリオ</h1>
     </div>
-    <div class="study">
+    <div>
+      <p>はじめまして。堀田将史と申します。……</p>
+    </div>
+    <section>
       <h2>学んだこと</h2>
-      <section class="cording">
-        <h3>コーディング</h3>
-        <div class="text">
-          <p>HTML,CSSを用いたWEBページの制作</p>
+      <div class="study-wrap">
+        <div class="study-content">
+          <h3>コーディング</h3>
+          <div class="text">
+            <h4>HTML,CSSを用いたWEBページの制作</h4>
+            <p>どのように学んだのか</p>
+          </div>
         </div>
-
-
-      </section>
+      <div class="study-content">
+        <h3>デザイン</h3>
+          <div class="text">
+            <h4>PhotoShop,illustratorなど基本操作</h4>
+            <p>どのように学んだのか</p>
+          </div>
+        </div> 
+      </div><!-- study-wrap end -->
+    </section>
+    <section>
+      <h2>練習制作</h2>
+      <div>
+        <ul>
+          <li>webページ</li>
+          <li><a href="">urlを記述</a></li>
+          <li>デザイン</li>
+          <li><a href="">デザインをまとめたスライド</a></li>
+        </ul>
+      </div>
+    </section>
+    <div>
+      <p>最後に一言</p>
     </div>
-
-    </div>
+    
+    </div><!-- wrapper end -->
   <footer></footer>
 
 </body>
