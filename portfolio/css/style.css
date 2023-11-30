@@ -90,7 +90,7 @@ p{
   margin: auto;
   /* 仮のサイズ */
   width: 350px;
-  height: 400px;
+  height: 350px;
 }
 .study-content h3{
   margin:3%;
@@ -107,10 +107,21 @@ p{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.web-work h3,.web-work h4{
+.webpage h3,.webpage h4{
   color: #020202;
 }
 
+.web-work-content{
+  margin: auto;
+}
+
+
+.design-img{
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
 
 @media screen and (min-width:430px) { 
   
