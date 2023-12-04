@@ -38,6 +38,9 @@ p{
   letter-spacing: 0.05em;
 }
 
+.header-menu{
+  display: none;
+}
 
 .wrapper{
   display: flex;
@@ -114,4 +117,33 @@ p{
 }
 
 @media screen and (min-width:430px) { 
+  .hamburger-menu{
+    display: none;
+  }
+  .header-menu{
+    display: flex;
+    align-items: center;
+    background-color: #00000099;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left:0;
+    position: fixed;
+  }
+  .header-menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+  }
+  .header-menu li{
+    font-family: 游ゴシック;
+    color: #f7f7f7;
+    font-weight: bold;
+    font-size:1.125rem;
+  }
+  .header-menu a{
+    text-decoration: none;
+  }
 }
