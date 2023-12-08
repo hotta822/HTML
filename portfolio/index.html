@@ -7,38 +7,15 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/menu.css">
+  <script src="./js/main.js"></script>
   <title>堀田 ポートフォリオ</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="hamburger-menu">
-        <input type="checkbox" id="menu-btn-check">
-        <label for="menu-btn-check" class="menu-btn"><span></span></label> 
-        <div class="menu-content">
-          <ul>
-            <li><a href="#">メニューリンク1</a></li>
-            <li><a href="#">メニューリンク2</a></li>
-            <li><a href="#">メニューリンク3</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="header-menu">
-        <ul>
-          <li><a href="#">ホーム</a></li>
-          <li><a href="#">学習</a></li>
-          <li><a href="#">制作</a></li>
-          <li><a href="#">プロフィール</a></li>
-        </ul>
-      </div>
-    </nav> 
-     
-  </header>
+  <header id="header"></header>
 
     <div class="wrapper">
       <div class="name">
         <h1>堀田 将史<br>ポートフォリオ</h1>
-        
         <img src="img/pattern.png" alt="">
       </div>
     <div class="salute">
@@ -58,7 +35,6 @@
               <p>スクールに加入してHTML,CSSの学習を行いました。
               スクールでは自力で課題に取り組み、どうしても解決できない時にはスタッフを頼りました。<br>
               またスタッフを顧客と想定したチームでの開発も行いました。ヒアリング、要件定義、開発を同期とのチームで行い、一つのwebページを制作しました。<br>
-              JavaScriptを独学で学び、いくつかの機能をこのページでも実装しています。
             </p>
             </div>
           </div>
@@ -76,33 +52,37 @@
         </div><!-- study-wrap end -->
     </section>
     <section>
-      <h2>練習制作</h2>
-      <div class="webpage">
-        <h3>webページ</h3>
-        <div class="web-work">
-          <div class="web-work-content">
-            <h4>ページ１</h4>
-            <a href=""><img src="https://placehold.jp/350x350.png" alt="web-image"></a>
-            <p><a href="./html-link/"></a>./html-link/</p>
-          </div>
-          <div class="web-work-content">
-            <h4>ページ２</h4>
-            <a href=""><img src="https://placehold.jp/350x350.png" alt="web-image"></a>
-            <p><a href="./html-link/"></a>./html-link/</p>
-          </div>
-        </div>
-        <div class="design">
-          <h3>デザイン</h3>
-          <div class="design-work">
-            <div class="design-img">
-              <img src="https://placehold.jp/350x350.png" alt="">
-              <img src="https://placehold.jp/350x350.png" alt="">
+      <div class="work-wrap">
+        <h2>練習制作</h2>
+        <div class="work-content-wrap">
+        <div class="webpage">
+          <h3>webページ</h3>
+          <div class="web-work">
+            <div class="web-work-content">
+              <h4>ページ１</h4>
+              <a href=""><img src="https://placehold.jp/350x350.png" alt="web-image"></a>
+              <p><a href="./html-link/"></a>./html-link/</p>
             </div>
-            <p>その他の作品をスライドにまとめました</p>
-            <a href="">pdfファイル</a>
-          </div>
+            <div class="web-work-content">
+              <h4>ページ２</h4>
+              <a href=""><img src="https://placehold.jp/350x350.png" alt="web-image"></a>
+              <p><a href="./html-link/"></a>./html-link/</p>
+            </div>
+          </div><!-- web-work end -->
         </div>
-      </div>
+          <div class="design">
+            <h3>デザイン</h3>
+            <div class="design-work">
+              <div class="design-img">
+                <img src="https://placehold.jp/350x350.png" alt="">
+                <img src="https://placehold.jp/350x350.png" alt="">
+              </div>
+              <p>その他の作品をスライドにまとめました</p>
+              <a href="">pdfファイル</a>
+            </div>
+          </div><!-- design end -->
+        </div><!-- work-content-wrap -->
+      </div><!-- work-wrap end -->
     </section>
     <div>
       <p>最後に一言</p>
